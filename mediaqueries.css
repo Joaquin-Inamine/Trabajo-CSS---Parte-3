@@ -1,0 +1,62 @@
+.container {
+    width: 1200px;
+    background-color: aqua;
+    margin: 0 auto;
+    overflow: hidden;
+    animation-name: mianimacion;
+    animation-duration: 10s;
+    animation-delay: 2s;
+}
+
+.container2 {
+    width: 1200px;
+    background-color: burlywood;
+    margin: 0 auto;
+    overflow: hidden;
+    animation-name: mianimacion;
+    animation-duration: 10s;
+    animation-delay: 2s;
+}
+
+.container3 {
+    width: 1200px;
+    background-color: green;
+    margin: 0 auto;
+    overflow: hidden;
+    animation-name: mianimacion;
+    animation-duration: 10s;
+    animation-delay: 2s;
+}
+
+@keyframes mianimacion{
+
+0% {background: blue;}
+25% {background:yellow;}
+50% {background: red;} 
+75% {background: orangered;}
+100% {background: violet;}
+
+
+}@media screen and (min-width: 230px) and (max-width: 800px) {
+
+    .container{
+        width: 800px;
+        background-color: blue;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .container2{
+        width: 800px;
+        background-color: brown;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .container3 {
+        width: 800px;
+        background-color: greenyellow;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
